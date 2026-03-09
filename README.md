@@ -18,7 +18,6 @@ Fichiers conçus avec [FreeCAD](https://www.freecad.org/).
 ![Plan de coupes des extrusions](./boite-extrusion/export/boite-extrusion_Page-coupes-extrusions__.svg)
 
 ### Fichiers STL 
-
 <!-- start-replace-filelist folder="./boite-extrusion/export" pattern="\.stl$" -->
 - [Boite Extrusion Boite Ensemble](./boite-extrusion/export/boite-extrusion-boite-ensemble.stl)
 - [Boite Extrusion Boite EnsemblePage Coupes Extrusions](./boite-extrusion/export/boite-extrusion-boite-ensemblePage-coupes-extrusions.stl)
@@ -30,7 +29,6 @@ Fichiers conçus avec [FreeCAD](https://www.freecad.org/).
 - [Boite Extrusion EnsembleBody Top 1 Joystick](./boite-extrusion/export/boite-extrusion-ensembleBody-top-1-joystick.stl)
 - [Boite Extrusion EnsembleBody Top 3 Boutons](./boite-extrusion/export/boite-extrusion-ensembleBody-top-3-boutons.stl)
 <!-- end-replace-filelist -->
-
 ## Licence
 
 Voir [LICENSE](./LICENSE).
