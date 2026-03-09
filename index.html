@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="description" content="Objets CAD construits avec des profilés d'aluminium 2020">
+    <title>CAD Boîte Extrusion</title>
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/tim-montmorency/cad-boite-extrusion">
+    <meta property="og:title" content="CAD Boîte Extrusion">
+    <meta property="og:description" content="Objets CAD construits avec des profilés d'aluminium 2020">
+    <meta property="og:image" content="">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/themes/core.min.css">
+
+    <!-- Core Dark - Dark Mode Only (add-on), to disable remove or comment out the below line -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/themes/addons/core-dark.min.css"
+        media="(prefers-color-scheme: dark)" />
+
+    <link rel="stylesheet" href="https://gllmar.github.io/docsify-lightbox-v5/docsify-lightbox.css">
+
+    <style>
+        :root {
+            --theme-color: #607d8b; /* Blue Grey - industrial/metallic */
+        }
+          /* make embedded videos responsive inside the docs area */
+          .markdown-section video {
+                display: block;
+                max-width: 100%;
+                width: 100%;      /* fill the text column */
+                height: auto;     /* keep aspect ratio */
+                margin: 0 auto;   /* center if narrower */
+                object-fit: contain;
+            }
+    </style>
+
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script>
+        window.$docsify = {
+            name: 'CAD Boîte Extrusion',
+                repo: 'https://github.com/tim-montmorency/cad-boite-extrusion',
+  
+            // Sidebar Configuration
+            auto2top: true,
+            loadSidebar: true,
+            maxLevel: 3,
+            // Set subMaxLevel to show nested navigation
+            subMaxLevel: 3,
+
+            search: {
+                namespace: 'cad-boite-extrusion',
+                placeholder: '    🔍',
+                noData: '     🤷‍♂️',
+                // Headline depth, 1 - 6
+                depth: 3,
+                hideOtherSidebarContent: false,
+            },
+            
+            // Navigation
+            relativePath: true,
+            
+            // Better navigation for tutorials
+            alias: {
+                '/.*/_sidebar.md': '/_sidebar.md',
+                '/.*/_navbar.md': '/_navbar.md',
+            },
+
+            // Copy Code Plugin Configuration    
+            copyCode: {
+                buttonText: '📝',
+                errorText: '⚠️',
+                successText: '✅ ',
+            },
+            
+            // Pagination for tutorial flow
+            pagination: {
+                previousText: '',
+                nextText: '',
+                crossChapter: true,
+                crossChapterText: true,
+            },
+            
+            // File extensions that should open in new tab
+            unhashtagLinkExtensions: ['.pdf', '.html', '.docx', '.gdscript', '.blend', '.zip', '.rar', '.7z', '.tar.gz', '.tar.bz2', '.tar.xz' , '.3mf'],
+        };
+    </script>
+
+
+    <!-- Required -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/docsify.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/plugins/search.min.js"></script>
+
+
+
+        <!-- Testing -->
+         <!-- Import Mermaid -->
+    <script type="module">
+        import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: "neutral"
+        });
+        window.mermaid = mermaid;
+    </script>
+
+        <!-- Lightbox plugin script -->
+    <script src="https://gllmar.github.io/docsify-lightbox-v5/docsify-lightbox.js"></script>
+    
+    <script src="https://gllmar.github.io/docsify-img-grid/docsify-img-grid.js"></script>
+    <script src="https://gllmar.github.io/docsify-img-caption/docsify-img-caption.js"></script>
+
+
+
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="https://gllmar.github.io/docsify-repo-toolbar/docsify-repo-toolbar.js"></script>
+    <script src="https://gllmar.github.io/docsify-unhashtaglink/docsify-unhashtaglink.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+    <script src="https://gllmar.github.io/docsify-v5-sidebar-collapse/docsify-v5-sidebar-collapse.js"></script>
+    <script src="https://gllmar.github.io/docsify-model-viewer/docsify-model-viewer.js"></script>
+    <script src="https://gllmar.github.io/docsify-pdf-preview/docsify-pdf-preview.js"></script>
+
+    
+</body>
+
+</html>
