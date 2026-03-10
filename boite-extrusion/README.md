@@ -2,9 +2,10 @@
 
 Boîte de contrôle construite avec des profilés d'aluminium d'extrusion 2020.
 <!-- start-replace-filelist -->
-- [Doc](./doc/)
 - [Export](./export/)
+- [Matériaux](./materiaux/)
 - [Modules](./modules/)
+- [Références](./references/)
 - [Boite Extrusion](./boite-extrusion.FCStd)
 <!-- end-replace-filelist -->
 ## Exports
