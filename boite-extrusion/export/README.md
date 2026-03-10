@@ -3,7 +3,6 @@
 - [Orca](./orca/)
 - ![Boite Extrusion Page Coupes Extrusions](./boite-extrusion_Page-coupes-extrusions__.svg)
 - [Boite Extrusion Boite Ensemble](./boite-extrusion-boite-ensemble.stl)
-- [Boite Extrusion Boite EnsemblePage Coupes Extrusions](./boite-extrusion-boite-ensemblePage-coupes-extrusions.stl)
 - [Boite Extrusion EnsembleBody Back 22mm](./boite-extrusion-ensembleBody-back-22mm.stl)
 - [Boite Extrusion EnsembleBody Bottom](./boite-extrusion-ensembleBody-bottom.stl)
 - [Boite Extrusion EnsembleBody Front 22mm](./boite-extrusion-ensembleBody-front-22mm.stl)
